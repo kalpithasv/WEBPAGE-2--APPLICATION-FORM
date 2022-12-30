@@ -1,0 +1,110 @@
+<!DOCTYPE html>  
+<html>  
+<head>  
+
+<style>  
+body{  
+  font-family: Calibri, Helvetica, sans-serif;  
+  background-color: green;  
+}  
+.container {  
+    padding: 50px;  
+  background-color: lightblue;  
+}  
+  
+input[type=text], input[type=password], textarea {  
+  width: 100%;  
+  padding: 15px;  
+  margin: 5px 0 22px 0;  
+  display: inline-block;  
+  border: none;  
+  background: #f1f1f1;  
+}  
+input[type=text]:focus, input[type=password]:focus {  
+  background-color: orange;  
+  outline: none;  
+}  
+ div {  
+            padding: 10px 0;  
+         }  
+<img src="C:\Users\kalpi\OneDrive\Desktop\pic.png" alt="pic" />
+</style> 
+
+ 
+</head>  
+<body>  
+<form>  
+  <div class="container">  <img src="C:\Users\kalpi\OneDrive\Desktop\pic.png" alt="pic" />
+  <center>  <h1> HEALTH PHYSICS</h1>
+            <H2> For your Physical Health </h2> </center>  
+  <hr>  
+
+  <label> <b>FIRSTNAME:</b> </label>   
+<input type="text" name="firstname" placeholder= "Firstname" size="15" required />   
+<label><b> MIDDLENAME: </b></label>   
+<input type="text" name="middlename" placeholder="Middlename" size="15" required />   
+<label> <b>LASTNAME:</b> </label>    
+<input type="text" name="lastname" placeholder="Lastname" size="15"required />   
+<div>  
+<label>   
+<b>HEATH CONDITION : </b> 
+</label>   
+  
+<select>  
+<option value="Course">Course</option>  
+<option value="COVID-19">COVID-19</option>  
+<option value="BREAST CANCER">BREAST CANCER</option>  
+<option value="INFLAMMATORY BOWEL DISEASE">INFLAMMATORY BOWEL DISEASE</option>  
+<option value="MIGRAINE">MIGRAINE</option>  
+<option value="MULTIPLE SCLEROSIS">MULTIPLE SCLEROSIS</option>  
+<option value="RHEUMATOID ARTHRITIS">RHEUMATOID ARTHRITIS</option>  
+</select>  
+</div>  
+<div>  
+<label>   
+<b>GENDER :  </b>
+</label><br>  
+<input type="radio" value="Male" name="gender" checked > Male   
+<input type="radio" value="Female" name="gender"> Female   
+<input type="radio" value="Other" name="gender"> Other  
+  
+</div> <BR>
+<b>EXPLORE BY:</b><br>
+
+<input type="checkbox" id="NUTRITION"name="NUTRITION" value="NUTRITION"/>
+
+<label for="NUTRITION">NUTRITION</label><br> <input type="checkbox" id="SLEEP"name="SLEEP"value="SLEEP"/>
+
+<label for="SLEEP">SLEEP</label><br> <input type="checkbox" id="MENTAL HEALTH"name="MENTAL HEALTH"value="MENTAL HEALTH"/> <label for="MENTAL HEALTH">MENTAL HEALTH</label><br> 
+<label> 
+  
+ <input type="checkbox" id="FITNESS"name="FITNESS"value="FITNESS"/>
+
+<label for="FITNESS">FITNESS</label><br>
+ <input type="checkbox" id="PRODUCT"name="PRODUCT"value="PRODUCT"/>
+
+<label for="PRODUCT">PRODUCT</label><br> <br>
+<b>PHONE : </b> 
+</label>  
+<input type="text" name="country code" placeholder="Country Code"  value="+91" size="2"/>   
+<input type="text" name="phone" placeholder="phone no." size="10"/ required>   
+<b>CURRENT ADDRESS :  </b>
+<textarea cols="80" rows="5" placeholder="Current Address" value="address" required>  
+</textarea>  
+ <label for="email"><b>E-MAIL:</b></label>  
+ <input type="text" placeholder="Enter Email" name="email" required>  
+  
+    <label for="psw"><b>PASSWORD:</b></label>  
+    <input type="password" placeholder="Enter Password" name="psw" required>  
+  
+    <label for="psw-repeat"><b>RE-TYPE PASSWORD:</b></label>  
+    <input type="password" placeholder="Retype Password" name="psw-repeat" required>  
+    <button type="submit" class="registerbtn">Register</button>    
+<form method="post" id="myForm" action="dynaform.php">
+
+      <input type='hidden' name='rec_mailto' value='kalpithasv@gmail.com'>
+      <input type='hidden' name='rec_subject' value='Heath Physics'>
+      <input type='hidden' name='rec_thanks' value='kalpitha_form.html'> </form>
+</form>  
+</body>  
+</html> 
